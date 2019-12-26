@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
@@ -20,7 +21,9 @@
     
     -->
 
-    <header>Titulo de nuestra Web</header>
+    <header>
+        <h1>Titulo de nuestra Web</h1>
+    </header>
 
     <nav>
         <ul>
@@ -37,14 +40,19 @@
         <blockquote>Tercer Elemento</blockquote>
     </aside>
 
-    <Section>
+    <section>
         <!-- Dentro de un article, podemos incluso poner parte de la estructura principal del docuemtno html5, como el HEADER y el FOOTER, tambien las etiquetas p, etc. -->
         <article>
 
-            <header>Ttulo de la Noticia 1</header>
+            <header>
+                <hgroup>
+                    <h2>Titulo de la Noticia 1</h2>
+                    <h3>Subtitulo de la Noticia 1</h3>
+                </hgroup>
+            </header>
             
             <figure>
-                <img src="Imagen/onePiece.jpg" alt="One Piece the best">
+                <img src="Imagen/onePiece.jpg" >
             </figure>
 
             <figcaption>Anime One Piece</figcaption>
@@ -60,18 +68,37 @@
         </article>
 
         <article>
+
+            <header>
+                <h2>Titulo de la Noticia 2</h2>
+            </header>
+
             <p>Noticia 2</p>
             <p>Seguimos hablando de la noticia 2</p>
             <p>Terminamos de hablar de la noticia 2</p>
+
+            <footer>Comentarios de la noticia 2</footer>
+
         </article>
 
         <article>
+
+            <header>
+                <hgroup>
+                    <h2>Titulo de la Noticia 3</h2>
+                    <h3>Subtitulo de la Noticia 3</h3>
+                </hgroup>
+            </header>
+
             <p>Noticia 3</p>
             <p>Seguimos hablando de la noticia 3</p>
             <p>Terminamos de hablar de la noticia 3</p>
+
+            <footer>Comentarios de la noticia 3</footer>
+
         </article>
 
-    </Section>
+    </section>
 
     <footer>Derechos reservados</footer>
 
