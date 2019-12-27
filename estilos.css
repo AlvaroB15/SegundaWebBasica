@@ -2,12 +2,15 @@
     width: 500px;
     background-color: crimson;
     text-align: center;
-    padding: 15px; /* cuando solo se pone un "parametro", se sobrentiende que ese 15px, es para arriba, derecha, abajo, izquierda (en ese orden, sentido horario, o de las manecillas), uno puede poner 10px 4px 3px 1px (sin comas, ya se entiende, pero si con espacios) */
+    margin: 20px auto;  /* cuando pones 2 parametros el primero seria para arriba y abajo; y el segundo para der y izq , el margin es para mover la "caja" en este caso 20 arriba y abajo y los laterales se acomodaran al tamaño de la ventana*/
+    padding: 15px; /* cuando solo se pone un "parametro", se sobrentiende que ese 15px, es para arriba, derecha, abajo, izquierda (en ese orden, sentido horario, o de las manecillas), uno puede poner 10px 4px 3px 1px (sin comas, ya se entiende, pero si con espacios), padding es darle espacio con respecto a la caja */
     border: 10px solid darkblue;
-    border-radius: 5px 10px 15px 20px 25px;
+    border-radius: 55px 55px 25px 25px ;
+    box-shadow: darkgreen 10px 10px 9px; /* el primero es el color que se le va a dar a la caja , el segundo es para el movimiento horizontal (eje x), el tercero con el eje Y, y el ultimo para darle mas intencidad en esa opacidad  */
 }
 
 #idSpan{
     font-size: 32px;
+    text-shadow: gold 3px 3px 2px;
     
 }
