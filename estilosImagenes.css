@@ -13,3 +13,83 @@ q:before, q:after{content: '';}
 
 /* FIN DEL RESET */
 
+body{
+    font-size: 1.4em;
+    background-color: steelblue;
+}
+
+h1{
+    background-color: darkgoldenrod;
+    width: 50%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 5px;
+    border: 5px solid mediumblue;
+    border-radius: 15px;
+    box-shadow: silver 5px 5px 7px;
+}
+
+h2{
+    font: bold 1em Arial;
+}
+
+section{
+    margin: 10px auto;
+    width: 90%;
+    border-top: 1.4px dashed red;
+}
+
+figure{
+    float: left;
+    /* border: 3px solid brown; */
+}
+
+figure img{
+    border: 5px solid chartreuse;
+    border-radius: 10px;
+    box-shadow: coral 5px 5px 7px;
+    -webkit-transition: -webkit-transform 0.23s ease-in-out 0.1s; /* el primer numero es lo que se demora la transicion en si, el ultimo parametro lo que hace es que se demora la animacion en si  */
+}
+
+figure img:hover{
+    -webkit-transform: scale(1.3);
+}
+
+figure figcaption{
+    text-align: center;
+    margin-top: 3px;
+}   
+
+footer{
+    border-top: 1.4px dashed red;
+    clear: both;
+    margin: 5px auto;
+    width: 90%;
+    text-align: center;
+}
+footer p{
+    font: bold 1em Georgia;
+    color: peru;
+    margin: 10px auto;
+}
+
+
+article{
+    clear: both;
+    margin: 10px 10px;
+    border: 3px solid springgreen;
+
+}
+article p{
+    float: left;
+    margin: 10px;
+
+}
+
+article img{
+    margin: 10px;
+}
+
+article span{
+    /* text-align: ; */
+}
