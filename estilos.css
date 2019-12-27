@@ -1,0 +1,13 @@
+#idHeader {
+    width: 500px;
+    background-color: crimson;
+    text-align: center;
+    padding: 15px; /* cuando solo se pone un "parametro", se sobrentiende que ese 15px, es para arriba, derecha, abajo, izquierda (en ese orden, sentido horario, o de las manecillas), uno puede poner 10px 4px 3px 1px (sin comas, ya se entiende, pero si con espacios) */
+    border: 10px solid darkblue;
+    border-radius: 5px 10px 15px 20px 25px;
+}
+
+#idSpan{
+    font-size: 32px;
+    
+}
